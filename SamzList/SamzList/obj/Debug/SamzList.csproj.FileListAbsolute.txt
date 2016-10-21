@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\SamzList\SamzList\bin\Debug\SamzList.exe.config
+C:\Users\Administrator\Desktop\SamzList\SamzList\bin\Debug\SamzList.exe
+C:\Users\Administrator\Desktop\SamzList\SamzList\bin\Debug\SamzList.pdb
+C:\Users\Administrator\Desktop\SamzList\SamzList\obj\Debug\SamzList.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SamzList\SamzList\obj\Debug\SamzList.exe
+C:\Users\Administrator\Desktop\SamzList\SamzList\obj\Debug\SamzList.pdb
