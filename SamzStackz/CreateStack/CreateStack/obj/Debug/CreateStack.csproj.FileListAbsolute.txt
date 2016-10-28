@@ -1,0 +1,2 @@
+c:\users\administrator\documents\visual studio 2015\Projects\CreateStack\CreateStack\bin\Debug\CreateStack.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\CreateStack\CreateStack\obj\Debug\CreateStack.csprojResolveAssemblyReference.cache
