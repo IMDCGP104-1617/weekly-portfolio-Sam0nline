@@ -48,4 +48,3 @@ namespace DataStructures
         }
     }
 }
-//This peek method should identify if i is the Top value or the current item
