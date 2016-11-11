@@ -1,5 +1,0 @@
-c:\users\administrator\documents\visual studio 2015\Projects\PushPopStack\PushPopStack\bin\Debug\PushPopStack.exe.config
-c:\users\administrator\documents\visual studio 2015\Projects\PushPopStack\PushPopStack\bin\Debug\PushPopStack.exe
-c:\users\administrator\documents\visual studio 2015\Projects\PushPopStack\PushPopStack\bin\Debug\PushPopStack.pdb
-c:\users\administrator\documents\visual studio 2015\Projects\PushPopStack\PushPopStack\obj\Debug\PushPopStack.exe
-c:\users\administrator\documents\visual studio 2015\Projects\PushPopStack\PushPopStack\obj\Debug\PushPopStack.pdb
