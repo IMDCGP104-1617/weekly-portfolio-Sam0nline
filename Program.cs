@@ -4,55 +4,60 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stackz
+namespace ConsoleApplication2
 {
     class Stack<T>
     {
-//Each stack element is considered a plate in context with 'stacks'.
-        public class Plate
-        {
-            public T data;
-            public Plate Above;
-        }
-//Base can be considered the 'head' of the stack.
-        private Plate Base;
+        private LinkedList<T> stack;
+        private int count;
+
+        public int Count {  get { return count; } }
 
         public Stack()
         {
-            Base = null;
+            stack = new LinkedList<T>();
         }
 
-        public void CreateStack(T data)
+        ~Stack()
         {
-            Plate bottomPlate = new Plate { Data = data };
-
-            if (Base == null)
+            while (!IsEmpty())
             {
-                Base = bottomPlate;
-            }
-            else
-            {
-                bottomPlate.Above = Base;
-                Base = bottomPlate;
+                T output;
+                Pop(out output);
             }
         }
 
-        public T DestroyStack()
+        public void Push(T data)
         {
-            T ret = default(T);
-
-            if(Base != null)
-            {
-                ret = Base.data;
-
-                if (Base.Above == null)
-                    Base = null;               
-            }
-
-            return ret;
+            count++;
+            stack.InsertBeginning(data);
         }
 
+        public bool Pop(out T output)
+        {
 
+            output = default(T);
 
+            if (IsEmpty())
+            {
+                return false;
+            }
+            count--;
+            return true;
+                
+        }
+
+        public bool IsEmpty()
+        {
+            return count == 0;
+        }
+
+        public T Peek()
+        {
+            return stack.Head;
+        }
     }
 }
+
+
+//
